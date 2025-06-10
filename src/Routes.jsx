@@ -5,7 +5,7 @@ import ProductInfo from './pages/ProductInfo'
 const routes = [
     {path:'/' , element : <Home/> },
     {path:'/category/:categoryName' , element:<Category/>},
-    {path:'productInfo/:productName' , element :<ProductInfo/>}
+    {path:'productInfo/:id' , element :<ProductInfo/>}
 ]
 
 
